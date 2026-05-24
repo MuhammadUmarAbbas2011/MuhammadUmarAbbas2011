@@ -8,7 +8,6 @@
 
 <br/><br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-umar-abbas-03583134a/)
 [![GitHub](https://img.shields.io/badge/GitHub-%23161b22.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MuhammadUmarAbbas2011)
 [![Profile Views](https://komarev.com/ghpvc/?username=MuhammadUmarAbbas2011&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS)](https://github.com/MuhammadUmarAbbas2011)
 
