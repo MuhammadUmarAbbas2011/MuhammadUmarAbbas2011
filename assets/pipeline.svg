@@ -1,0 +1,114 @@
+<svg width="1000" height="560" viewBox="0 0 1000 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1000" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a1024"/>
+      <stop offset="0.5" stop-color="#0d1526"/>
+      <stop offset="1" stop-color="#0a1024"/>
+    </linearGradient>
+    <linearGradient id="ptitle" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#pbg)"/>
+
+  <text x="40" y="44" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="2">01 · THE SYSTEM</text>
+  <text x="40" y="70" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="800" fill="url(#ptitle)">the machine around the AI, not the API call</text>
+
+  <g id="row1">
+    <rect x="40" y="90" width="200" height="120" rx="12" fill="#0f1a38" stroke="#22d3ee" stroke-opacity="0.8"/>
+    <text x="58" y="118" font-family="Consolas, monospace" font-size="12" fill="#22d3ee">01</text>
+    <text x="58" y="152" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">Frontend</text>
+    <text x="58" y="182" font-family="Consolas, monospace" font-size="12" fill="#8b949e">SPA · type-safe API client</text>
+
+    <rect x="280" y="90" width="200" height="120" rx="12" fill="#0f1a38" stroke="#58a6ff" stroke-opacity="0.8"/>
+    <text x="298" y="118" font-family="Consolas, monospace" font-size="12" fill="#58a6ff">02</text>
+    <text x="298" y="152" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">API Layer</text>
+    <text x="298" y="182" font-family="Consolas, monospace" font-size="12" fill="#8b949e">REST · JWT · OTP · auth</text>
+
+    <rect x="520" y="90" width="200" height="120" rx="12" fill="#0f1a38" stroke="#3fb950" stroke-opacity="0.8"/>
+    <text x="538" y="118" font-family="Consolas, monospace" font-size="12" fill="#3fb950">03</text>
+    <text x="538" y="152" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">Backend</text>
+    <text x="538" y="182" font-family="Consolas, monospace" font-size="12" fill="#8b949e">domain logic · validation</text>
+
+    <rect x="760" y="90" width="200" height="120" rx="12" fill="#0f1a38" stroke="#d29922" stroke-opacity="0.9"/>
+    <text x="778" y="118" font-family="Consolas, monospace" font-size="12" fill="#d29922">04</text>
+    <text x="778" y="152" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">Data</text>
+    <text x="778" y="182" font-family="Consolas, monospace" font-size="12" fill="#8b949e">PostgreSQL · Redis · queues</text>
+  </g>
+
+  <g id="row2">
+    <rect x="760" y="380" width="200" height="120" rx="12" fill="#0f1a38" stroke="#8b5cf6" stroke-opacity="0.9"/>
+    <text x="778" y="408" font-family="Consolas, monospace" font-size="12" fill="#8b5cf6">05</text>
+    <text x="778" y="442" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">AI · RAG</text>
+    <text x="778" y="472" font-family="Consolas, monospace" font-size="12" fill="#8b949e">embeddings · vector search · LLM</text>
+
+    <rect x="520" y="380" width="200" height="120" rx="12" fill="#0f1a38" stroke="#f97583" stroke-opacity="0.8"/>
+    <text x="538" y="408" font-family="Consolas, monospace" font-size="12" fill="#f97583">06</text>
+    <text x="538" y="442" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">Async</text>
+    <text x="538" y="472" font-family="Consolas, monospace" font-size="12" fill="#8b949e">Celery · workers · retries</text>
+
+    <rect x="280" y="380" width="200" height="120" rx="12" fill="#0f1a38" stroke="#6e7f9c" stroke-opacity="0.9"/>
+    <text x="298" y="408" font-family="Consolas, monospace" font-size="12" fill="#6e7f9c">07</text>
+    <text x="298" y="442" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">Infra</text>
+    <text x="298" y="472" font-family="Consolas, monospace" font-size="12" fill="#8b949e">Docker · Compose · CI</text>
+
+    <rect x="40" y="380" width="200" height="120" rx="12" fill="#0f1a38" stroke="#c084fc" stroke-opacity="0.8"/>
+    <text x="58" y="408" font-family="Consolas, monospace" font-size="12" fill="#c084fc">08</text>
+    <text x="58" y="442" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">Deploy</text>
+    <text x="58" y="472" font-family="Consolas, monospace" font-size="12" fill="#8b949e">containers · env · rollback</text>
+  </g>
+
+  <g id="connectors" stroke="#30363d" stroke-width="2" fill="none" stroke-dasharray="8 6">
+    <path d="M 240 150 L 280 150">
+      <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 480 150 L 520 150">
+      <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 720 150 L 760 150">
+      <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 860 210 L 860 380">
+      <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 760 440 L 720 440">
+      <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 480 440 L 280 440">
+      <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 240 440 L 200 440">
+      <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g id="flowdots">
+    <circle r="4" fill="#22d3ee">
+      <animateMotion dur="1.2s" repeatCount="indefinite" path="M 240 150 L 280 150"/>
+    </circle>
+    <circle r="4" fill="#58a6ff">
+      <animateMotion dur="1.2s" repeatCount="indefinite" path="M 480 150 L 520 150"/>
+    </circle>
+    <circle r="4" fill="#3fb950">
+      <animateMotion dur="1.2s" repeatCount="indefinite" path="M 720 150 L 760 150"/>
+    </circle>
+    <circle r="4" fill="#8b5cf6">
+      <animateMotion dur="1.6s" repeatCount="indefinite" path="M 860 210 L 860 380"/>
+    </circle>
+    <circle r="4" fill="#f97583">
+      <animateMotion dur="1.2s" repeatCount="indefinite" path="M 760 440 L 720 440"/>
+    </circle>
+    <circle r="4" fill="#6e7f9c">
+      <animateMotion dur="1.2s" repeatCount="indefinite" path="M 480 440 L 280 440"/>
+    </circle>
+    <circle r="4" fill="#c084fc">
+      <animateMotion dur="1.2s" repeatCount="indefinite" path="M 240 440 L 200 440"/>
+    </circle>
+  </g>
+
+  <text x="40" y="540" font-family="Consolas, monospace" font-size="14" fill="#8b949e">
+    every layer is built, not stitched — auth to queue to vector to deploy
+  </text>
+</svg>

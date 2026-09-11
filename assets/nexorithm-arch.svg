@@ -1,0 +1,109 @@
+<svg width="1000" height="700" viewBox="0 0 1000 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nbg" x1="0" y1="0" x2="1000" y2="700" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a1024"/>
+      <stop offset="0.5" stop-color="#0d1526"/>
+      <stop offset="1" stop-color="#0a1024"/>
+    </linearGradient>
+    <linearGradient id="ntitle" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="700" fill="url(#nbg)"/>
+
+  <text x="40" y="44" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="2">04 · NEXORITHM</text>
+  <text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="800" fill="url(#ntitle)">a RAG backend that behaves like a platform</text>
+
+  <g id="stages" font-family="'Helvetica Neue', Arial, sans-serif">
+    <rect x="70" y="104" width="860" height="48" rx="8" fill="#0f1a38" stroke="#22d3ee" stroke-opacity="0.55"/>
+    <rect x="70" y="104" width="6" height="48" rx="3" fill="#22d3ee"/>
+    <text x="94" y="124" font-family="Consolas, monospace" font-size="12" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0.4;1" dur="4s" repeatCount="indefinite"/>
+      01</text>
+    <text x="128" y="126" font-size="17" font-weight="700" fill="#e6edf3">Sources</text>
+    <text x="860" y="126" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#8b949e">Codeforces · LeetCode · attached files</text>
+
+    <rect x="70" y="164" width="860" height="48" rx="8" fill="#0f1a38" stroke="#58a6ff" stroke-opacity="0.55"/>
+    <rect x="70" y="164" width="6" height="48" rx="3" fill="#58a6ff"/>
+    <text x="94" y="184" font-family="Consolas, monospace" font-size="12" fill="#58a6ff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/>
+      02</text>
+    <text x="128" y="186" font-size="17" font-weight="700" fill="#e6edf3">Normalization</text>
+    <text x="860" y="186" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#8b949e">parse · clean · chunk</text>
+
+    <rect x="70" y="224" width="860" height="48" rx="8" fill="#0f1a38" stroke="#8b5cf6" stroke-opacity="0.6"/>
+    <rect x="70" y="224" width="6" height="48" rx="3" fill="#8b5cf6"/>
+    <text x="94" y="244" font-family="Consolas, monospace" font-size="12" fill="#8b5cf6">
+      <animate attributeName="opacity" values="1;0.5;1" dur="5s" repeatCount="indefinite"/>
+      03</text>
+    <text x="128" y="246" font-size="17" font-weight="700" fill="#e6edf3">Embeddings</text>
+    <text x="860" y="246" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#8b949e">FastEmbed · per-document vectors</text>
+
+    <rect x="70" y="284" width="860" height="48" rx="8" fill="#0f1a38" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <rect x="70" y="284" width="6" height="48" rx="3" fill="#a78bfa"/>
+    <text x="94" y="304" font-family="Consolas, monospace" font-size="12" fill="#a78bfa">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.5s" repeatCount="indefinite"/>
+      04</text>
+    <text x="128" y="306" font-size="17" font-weight="700" fill="#e6edf3">Vector index</text>
+    <text x="860" y="306" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#8b949e">Qdrant · collections · metadata</text>
+
+    <rect x="70" y="344" width="860" height="48" rx="8" fill="#0f1a38" stroke="#6e7f9c" stroke-opacity="0.6"/>
+    <rect x="70" y="344" width="6" height="48" rx="3" fill="#6e7f9c"/>
+    <text x="94" y="364" font-family="Consolas, monospace" font-size="12" fill="#6e7f9c">
+      <animate attributeName="opacity" values="1;0.5;1" dur="4" repeatCount="indefinite"/>
+      05</text>
+    <text x="128" y="366" font-size="17" font-weight="700" fill="#e6edf3">Retrieval</text>
+    <text x="860" y="366" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#8b949e">semantic search · top-k</text>
+
+    <rect x="70" y="404" width="860" height="48" rx="8" fill="#0f1a38" stroke="#3fb950" stroke-opacity="0.6"/>
+    <rect x="70" y="404" width="6" height="48" rx="3" fill="#3fb950"/>
+    <text x="94" y="424" font-family="Consolas, monospace" font-size="12" fill="#3fb950">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+      06</text>
+    <text x="128" y="426" font-size="17" font-weight="700" fill="#e6edf3">Generation</text>
+    <text x="860" y="426" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#8b949e">Groq LLM · grounded answer</text>
+
+    <rect x="70" y="464" width="860" height="48" rx="8" fill="#0f1a38" stroke="#d29922" stroke-opacity="0.7"/>
+    <rect x="70" y="464" width="6" height="48" rx="3" fill="#d29922"/>
+    <text x="94" y="484" font-family="Consolas, monospace" font-size="12" fill="#d29922">
+      <animate attributeName="opacity" values="1;0.4;1" dur="5s" repeatCount="indefinite"/>
+      07</text>
+    <text x="128" y="486" font-size="17" font-weight="700" fill="#e6edf3">Validation</text>
+    <text x="860" y="486" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#8b949e">confidence · sources · fallback</text>
+  </g>
+
+  <g id="arrows" fill="#30363d">
+    <path d="M 492 154 L 508 154 L 500 166 Z"/>
+    <path d="M 492 214 L 508 214 L 500 226 Z"/>
+    <path d="M 492 274 L 508 274 L 500 286 Z"/>
+    <path d="M 492 334 L 508 334 L 500 346 Z"/>
+    <path d="M 492 394 L 508 394 L 500 406 Z"/>
+    <path d="M 492 454 L 508 454 L 500 466 Z"/>
+  </g>
+
+  <rect x="40" y="548" width="920" height="112" rx="12" fill="#0d1526" stroke="#1f6feb" stroke-opacity="0.35"/>
+  <text x="64" y="574" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="2">SYSTEM AROUND THE MODEL</text>
+  <g>
+    <rect x="64" y="586" width="150" height="30" rx="15" fill="#101d3d" stroke="#58a6ff" stroke-opacity="0.5"/>
+    <text x="139" y="605" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">JWT + OTP auth</text>
+    <rect x="224" y="586" width="210" height="30" rx="15" fill="#101d3d" stroke="#58a6ff" stroke-opacity="0.5"/>
+    <text x="329" y="605" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">Redis sessions → PG fallback</text>
+    <rect x="444" y="586" width="180" height="30" rx="15" fill="#101d3d" stroke="#3fb950" stroke-opacity="0.5"/>
+    <text x="534" y="605" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">sandboxed code executor</text>
+    <rect x="634" y="586" width="130" height="30" rx="15" fill="#101d3d" stroke="#f97583" stroke-opacity="0.5"/>
+    <text x="699" y="605" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">Celery email</text>
+
+    <rect x="64" y="624" width="150" height="30" rx="15" fill="#101d3d" stroke="#d29922" stroke-opacity="0.5"/>
+    <text x="139" y="643" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">Alembic migrations</text>
+    <rect x="224" y="624" width="80" height="30" rx="15" fill="#101d3d" stroke="#d29922" stroke-opacity="0.5"/>
+    <text x="264" y="643" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">pytest</text>
+    <rect x="314" y="624" width="150" height="30" rx="15" fill="#101d3d" stroke="#6e7f9c" stroke-opacity="0.5"/>
+    <text x="389" y="643" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">Docker Compose</text>
+    <rect x="474" y="624" width="150" height="30" rx="15" fill="#101d3d" stroke="#6e7f9c" stroke-opacity="0.5"/>
+    <text x="549" y="643" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">API versioning</text>
+  </g>
+
+  <text x="40" y="688" font-family="Consolas, monospace" font-size="14" fill="#8b949e">the model is one component<span fill="#22d3ee"> — the platform is the product</span></text>
+</svg>

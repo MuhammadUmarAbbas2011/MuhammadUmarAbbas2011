@@ -1,0 +1,98 @@
+<svg width="1000" height="640" viewBox="0 0 1000 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="jbg" x1="0" y1="0" x2="1000" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a1024"/>
+      <stop offset="0.5" stop-color="#0d1526"/>
+      <stop offset="1" stop-color="#0a1024"/>
+    </linearGradient>
+    <linearGradient id="jtitle" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3fb950"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="640" fill="url(#jbg)"/>
+
+  <text x="40" y="44" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="2">05 · JOBHUNTLY</text>
+  <text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="800" fill="url(#jtitle)">scrape once, orchestrate everything around it</text>
+
+  <g id="stages" font-family="'Helvetica Neue', Arial, sans-serif">
+    <rect x="70" y="104" width="860" height="48" rx="8" fill="#0f1a38" stroke="#22d3ee" stroke-opacity="0.55"/>
+    <rect x="70" y="104" width="6" height="48" rx="3" fill="#22d3ee"/>
+    <text x="94" y="124" font-family="Consolas, monospace" font-size="12" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0.4;1" dur="4s" repeatCount="indefinite"/>
+      01</text>
+    <text x="128" y="126" font-size="17" font-weight="700" fill="#e6edf3">Sources</text>
+    <text x="860" y="126" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#8b949e">Glassdoor · LinkedIn · feeds</text>
+
+    <rect x="70" y="164" width="860" height="48" rx="8" fill="#0f1a38" stroke="#3fb950" stroke-opacity="0.6"/>
+    <rect x="70" y="164" width="6" height="48" rx="3" fill="#3fb950"/>
+    <text x="94" y="184" font-family="Consolas, monospace" font-size="12" fill="#3fb950">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/>
+      02</text>
+    <text x="128" y="186" font-size="17" font-weight="700" fill="#e6edf3">Collection</text>
+    <text x="860" y="186" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#8b949e">Playwright · undetected-chromedriver</text>
+
+    <rect x="70" y="224" width="860" height="48" rx="8" fill="#0f1a38" stroke="#d29922" stroke-opacity="0.7"/>
+    <rect x="70" y="224" width="6" height="48" rx="3" fill="#d29922"/>
+    <text x="94" y="244" font-family="Consolas, monospace" font-size="12" fill="#d29922">
+      <animate attributeName="opacity" values="1;0.5;1" dur="5s" repeatCount="indefinite"/>
+      03</text>
+    <text x="128" y="246" font-size="17" font-weight="700" fill="#e6edf3">Ingest &amp; dedupe</text>
+    <text x="860" y="246" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#8b949e">PyMuPDF resume · validate · dedupe</text>
+
+    <rect x="70" y="284" width="860" height="48" rx="8" fill="#0f1a38" stroke="#8b5cf6" stroke-opacity="0.6"/>
+    <rect x="70" y="284" width="6" height="48" rx="3" fill="#8b5cf6"/>
+    <text x="94" y="304" font-family="Consolas, monospace" font-size="12" fill="#8b5cf6">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.5s" repeatCount="indefinite"/>
+      04</text>
+    <text x="128" y="306" font-size="17" font-weight="700" fill="#e6edf3">Matching engine</text>
+    <text x="860" y="306" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#8b949e">TF-IDF · cosine similarity</text>
+
+    <rect x="70" y="344" width="860" height="48" rx="8" fill="#0f1a38" stroke="#f97583" stroke-opacity="0.6"/>
+    <rect x="70" y="344" width="6" height="48" rx="3" fill="#f97583"/>
+    <text x="94" y="364" font-family="Consolas, monospace" font-size="12" fill="#f97583">
+      <animate attributeName="opacity" values="1;0.5;1" dur="4" repeatCount="indefinite"/>
+      05</text>
+    <text x="128" y="366" font-size="17" font-weight="700" fill="#e6edf3">Delivery</text>
+    <text x="860" y="366" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#8b949e">ranked shortlist · notifications</text>
+
+    <rect x="70" y="404" width="860" height="48" rx="8" fill="#0f1a38" stroke="#6e7f9c" stroke-opacity="0.6"/>
+    <rect x="70" y="404" width="6" height="48" rx="3" fill="#6e7f9c"/>
+    <text x="94" y="424" font-family="Consolas, monospace" font-size="12" fill="#6e7f9c">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+      06</text>
+    <text x="128" y="426" font-size="17" font-weight="700" fill="#e6edf3">Live ops</text>
+    <text x="860" y="426" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#8b949e">Celery Beat schedule · WebSockets progress</text>
+  </g>
+
+  <g id="arrows" fill="#30363d">
+    <path d="M 492 154 L 508 154 L 500 166 Z"/>
+    <path d="M 492 214 L 508 214 L 500 226 Z"/>
+    <path d="M 492 274 L 508 274 L 500 286 Z"/>
+    <path d="M 492 334 L 508 334 L 500 346 Z"/>
+    <path d="M 492 394 L 508 394 L 500 406 Z"/>
+  </g>
+
+  <rect x="40" y="488" width="920" height="112" rx="12" fill="#0d1526" stroke="#1f6feb" stroke-opacity="0.35"/>
+  <text x="64" y="514" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="2">AROUND THE SCRAPER</text>
+  <g>
+    <rect x="64" y="526" width="150" height="30" rx="15" fill="#101d3d" stroke="#58a6ff" stroke-opacity="0.5"/>
+    <text x="139" y="545" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">JWT + OTP auth</text>
+    <rect x="224" y="526" width="200" height="30" rx="15" fill="#101d3d" stroke="#f97583" stroke-opacity="0.5"/>
+    <text x="324" y="545" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">Celery task retries</text>
+    <rect x="434" y="526" width="190" height="30" rx="15" fill="#101d3d" stroke="#f97583" stroke-opacity="0.5"/>
+    <text x="529" y="545" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">Celery Beat scheduler</text>
+    <rect x="634" y="526" width="220" height="30" rx="15" fill="#101d3d" stroke="#6e7f9c" stroke-opacity="0.5"/>
+    <text x="744" y="545" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">Channels WebSockets</text>
+
+    <rect x="64" y="564" width="150" height="30" rx="15" fill="#101d3d" stroke="#6e7f9c" stroke-opacity="0.5"/>
+    <text x="139" y="583" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">Docker Compose</text>
+    <rect x="224" y="564" width="130" height="30" rx="15" fill="#101d3d" stroke="#f97583" stroke-opacity="0.5"/>
+    <text x="289" y="583" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">Redis broker</text>
+    <rect x="364" y="564" width="155" height="30" rx="15" fill="#101d3d" stroke="#58a6ff" stroke-opacity="0.5"/>
+    <text x="441" y="583" text-anchor="middle" font-family="Consolas, monospace" font-size="12.5" fill="#c9d1d9">rate-limit aware</text>
+  </g>
+
+  <text x="40" y="628" font-family="Consolas, monospace" font-size="14" fill="#8b949e">orchestration<span fill="#22d3ee">, not just scraping</span></text>
+</svg>

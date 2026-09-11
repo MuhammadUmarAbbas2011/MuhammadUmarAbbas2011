@@ -1,0 +1,84 @@
+<svg width="1000" height="520" viewBox="0 0 1000 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="phbg" x1="0" y1="0" x2="1000" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a1024"/>
+      <stop offset="0.5" stop-color="#0d1526"/>
+      <stop offset="1" stop-color="#0a1024"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="0.7" stop-color="#8b5cf6" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1000" height="520" fill="url(#phbg)"/>
+
+  <text x="40" y="44" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="2">06 · ENGINEERING PHILOSOPHY</text>
+  <text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="800" fill="#e6edf3">a continuous loop from<span fill="#8b5cf6"> learn</span> to<span fill="#58a6ff"> ship</span></text>
+
+  <g id="ring" fill="none">
+    <circle cx="500" cy="260" r="224" stroke="#1c2742" stroke-width="1.5"/>
+    <circle cx="500" cy="260" r="210" stroke="#8b5cf6" stroke-opacity="0.7" stroke-width="2" stroke-dasharray="10 14">
+      <animateTransform attributeName="transform" type="rotate" from="0 500 260" to="360 500 260" dur="36s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g id="edges" stroke="#30363d" stroke-width="2" fill="none" stroke-dasharray="8 6">
+    <path d="M 690 260 L 595 423">
+      <animate attributeName="stroke-dashoffset" from="0" to="-42" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 595 423 L 405 423">
+      <animate attributeName="stroke-dashoffset" from="0" to="-42" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 405 423 L 310 260">
+      <animate attributeName="stroke-dashoffset" from="0" to="-42" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 310 260 L 405 97">
+      <animate attributeName="stroke-dashoffset" from="0" to="-42" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 405 97 L 595 97">
+      <animate attributeName="stroke-dashoffset" from="0" to="-42" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 595 97 L 690 260">
+      <animate attributeName="stroke-dashoffset" from="0" to="-42" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g id="core">
+    <circle cx="500" cy="260" r="96" fill="url(#coreGlow)">
+      <animate attributeName="r" values="88;104;88" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="260" r="60" fill="#121a36" stroke="#8b5cf6" stroke-opacity="0.5"/>
+    <text x="500" y="254" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#e6edf3">why it works</text>
+    <text x="500" y="280" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#8b949e">not just that it works</text>
+  </g>
+
+  <g id="nodes" font-family="'Helvetica Neue', Arial, sans-serif">
+    <circle cx="690" cy="260" r="56" fill="#0f1a38" stroke="#22d3ee" stroke-width="2"/>
+    <text x="690" y="255" text-anchor="middle" font-size="18" font-weight="700" fill="#e6edf3">Learn</text>
+    <text x="690" y="276" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#8b949e">new stacks</text>
+
+    <circle cx="595" cy="423" r="56" fill="#0f1a38" stroke="#3fb950" stroke-width="2"/>
+    <text x="595" y="418" text-anchor="middle" font-size="18" font-weight="700" fill="#e6edf3">Build</text>
+    <text x="595" y="439" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#8b949e">fast, small</text>
+
+    <circle cx="405" cy="423" r="56" fill="#0f1a38" stroke="#f97583" stroke-width="2"/>
+    <text x="405" y="418" text-anchor="middle" font-size="18" font-weight="700" fill="#e6edf3">Break</text>
+    <text x="405" y="439" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#8b949e">on purpose</text>
+
+    <circle cx="310" cy="260" r="56" fill="#0f1a38" stroke="#d29922" stroke-width="2"/>
+    <text x="310" y="255" text-anchor="middle" font-size="18" font-weight="700" fill="#e6edf3">Debug</text>
+    <text x="310" y="276" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#8b949e">root cause</text>
+
+    <circle cx="405" cy="97" r="56" fill="#0f1a38" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="405" y="92" text-anchor="middle" font-size="18" font-weight="700" fill="#e6edf3">Improve</text>
+    <text x="405" y="113" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#8b949e">measure</text>
+
+    <circle cx="595" cy="97" r="56" fill="#0f1a38" stroke="#58a6ff" stroke-width="2"/>
+    <text x="595" y="92" text-anchor="middle" font-size="18" font-weight="700" fill="#e6edf3">Ship</text>
+    <text x="595" y="113" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#8b949e">don't stop</text>
+  </g>
+
+  <text x="40" y="500" font-family="Consolas, monospace" font-size="14" fill="#8b949e">every project is practice for the next one</text>
+</svg>
