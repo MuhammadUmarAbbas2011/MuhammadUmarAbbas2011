@@ -1,102 +1,47 @@
-<svg width="1000" height="400" viewBox="0 0 1000 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo2ZTA1NmZlNi0yNGI2LTQxMjAtODU3NS0wYjk1NGVkMTg5NmUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaG21xHbvvlmVHOBK55dpolUAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpiMGJiZWI5Yy00OGViLTRjZmUtYTkzNS0xNjE1MDk2MWExNjVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNokdOJBvJMyUWIcCEZqMx4IQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggYPxiuRfPq+4kQA5qREtPlOlz8a/8D6QlhoZG8HXAy9ykZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaODaTnp6V+UrV6Hc9eunjm8AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDKOLmgSXc8XXvr7naWCOzeQLu5JAhLK9dSktX/CayIA2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiYZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjZlMDU2ZmU2LTI0YjYtNDEyMC04NTc1LTBiOTU0ZWQxODk2ZS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjk2MjQyMmY5LThmNTktNDk0Ny05YzllLTlmMGJmMDkzZGYxOHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBg/GK5F8+r7iRADmpES0+U6XPxr/wPpCWGhkbwdcDL3KJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggjX2LubffPwjjagxumBpgxPE+65mNqk62obdoYNypwCaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggQthN4sPrRrvvMXJcdgNAxcOXvSLN41HjL5jGOzZqjaZ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQL5NWKI5rjhl4YIBIoS6lkTZce4CqwhSPQMa9eY16pNfOtoThGq7SD6qd3wSX66sHAPafedK/rpkKO5p5b+ojHo=</c2pa:manifest></metadata>
   <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1000" y2="400" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0a1024"/>
-      <stop offset="0.5" stop-color="#0d1526"/>
-      <stop offset="1" stop-color="#0a1024"/>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1000" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a2036"/>
+      <stop offset="1" stop-color="#0d2843"/>
     </linearGradient>
-    <linearGradient id="titleGrad" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="0.45" stop-color="#58a6ff"/>
-      <stop offset="0.75" stop-color="#8b5cf6"/>
-      <stop offset="1" stop-color="#c084fc"/>
-    </linearGradient>
-    <linearGradient id="subGrad" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#8b949e"/>
-      <stop offset="1" stop-color="#58a6ff"/>
-    </linearGradient>
-    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowViolet" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.3"/>
-      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1c2742" stroke-width="1"/>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#16406b" stroke-width="0.6" opacity="0.45"/>
     </pattern>
   </defs>
 
-  <rect width="1000" height="400" fill="url(#bgGrad)"/>
-  <rect width="1000" height="400" fill="url(#grid)" opacity="0.5"/>
+  <rect width="1000" height="280" fill="url(#hbg)"/>
+  <rect width="1000" height="280" fill="url(#grid)"/>
 
-  <ellipse cx="820" cy="80" rx="260" ry="200" fill="url(#glowBlue)">
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="6s" repeatCount="indefinite"/>
-  </ellipse>
-  <ellipse cx="140" cy="360" rx="240" ry="180" fill="url(#glowViolet)">
-    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="8s" repeatCount="indefinite"/>
-  </ellipse>
-  <ellipse cx="520" cy="60" rx="200" ry="140" fill="url(#glowCyan)">
-    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="7s" repeatCount="indefinite"/>
-  </ellipse>
+  <!-- drafting-sheet frame -->
+  <rect x="14" y="14" width="972" height="252" fill="none" stroke="#5f83a6" stroke-width="1"/>
+  <path d="M14 14 L34 14 M14 14 L14 34" stroke="#d7e6f5" stroke-width="1.5"/>
+  <path d="M986 14 L966 14 M986 14 L986 34" stroke="#d7e6f5" stroke-width="1.5"/>
+  <path d="M14 266 L34 266 M14 266 L14 246" stroke="#d7e6f5" stroke-width="1.5"/>
+  <path d="M986 266 L966 266 M986 266 L986 246" stroke="#d7e6f5" stroke-width="1.5"/>
 
-  <text x="48" y="122" font-family="Consolas, monospace" font-size="15" fill="#22d3ee">~/profile</text>
-  <text x="48" y="146" font-family="Consolas, monospace" font-size="13" fill="#3fb950">$ whoami</text>
-
-  <text x="48" y="222" font-family="'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="800" fill="url(#titleGrad)" letter-spacing="-1">Muhammad Umar Abbas</text>
-  <text x="48" y="262" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="500" fill="url(#subGrad)" letter-spacing="2">FULL STACK AI ARCHITECT</text>
-
-  <text x="790" y="122" font-family="Consolas, monospace" font-size="14" fill="#8b949e">build:</text>
-  <rect x="790" y="140" width="170" height="52" rx="8" fill="#0d1526" stroke="#1f6feb" stroke-opacity="0.6"/>
-  <text x="802" y="160" font-family="Consolas, monospace" font-size="14" fill="#22d3ee">$</text>
-  <g font-family="Consolas, monospace" font-size="14" fill="#e6edf3">
-    <text x="826" y="160" opacity="0">
-      nexorithm
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.82;0.94" dur="18s" repeatCount="indefinite"/>
-    </text>
-    <text x="826" y="160" opacity="0">
-      jobhuntly
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0.02;0.18;0.92;1" dur="18s" repeatCount="indefinite"/>
-    </text>
-    <text x="826" y="160" opacity="0">
-      privharbor
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0.14;0.22;0.98;1" dur="18s" repeatCount="indefinite"/>
-    </text>
+  <!-- title block, bottom right, like a real drawing sheet -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#7f9db8">
+    <rect x="742" y="216" width="222" height="38" fill="none" stroke="#5f83a6" stroke-width="0.75"/>
+    <line x1="742" y1="229" x2="964" y2="229" stroke="#5f83a6" stroke-width="0.5"/>
+    <line x1="742" y1="242" x2="964" y2="242" stroke="#5f83a6" stroke-width="0.5"/>
+    <text x="750" y="226">DWG. MUHAMMAD UMAR ABBAS</text>
+    <text x="750" y="239">SHEET 1 OF 1 — README.svg</text>
+    <text x="750" y="252">SCALE: NOT TO SCALE</text>
   </g>
-  <text x="802" y="180" font-family="Consolas, monospace" font-size="13" fill="#8b949e">
-    <tspan fill="#3fb950">●</tspan> running
-  </text>
 
-  <text x="790" y="252" font-family="Consolas, monospace" font-size="14" fill="#8b949e">status:</text>
-  <rect x="790" y="270" width="170" height="52" rx="8" fill="#0d1526" stroke="#30363d"/>
-  <text x="802" y="292" font-family="Consolas, monospace" font-size="13" fill="#8b949e">
-    <tspan fill="#58a6ff">▸</tspan> full-stack AI pipelines
-  </text>
-  <text x="802" y="310" font-family="Consolas, monospace" font-size="13" fill="#8b949e">
-    <animate attributeName="opacity" values="1;0.15;1" dur="1.6s" repeatCount="indefinite"/>
-    █
-  </text>
+  <!-- main title -->
+  <text x="46" y="108" font-family="'Arial Narrow', Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="-0.5" fill="#eaf2fa">Muhammad Umar Abbas</text>
+  <text x="46" y="140" font-family="'Arial Narrow', Arial, sans-serif" font-size="19" font-weight="400" letter-spacing="1" fill="#7f9db8">Full-stack AI architect</text>
+  <text x="46" y="172" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5f83a6">the model is one part of the drawing — the rest is what makes it hold up</text>
 
-  <rect x="48" y="300" width="170" height="34" rx="18" fill="#101b3a" stroke="#1f6feb" stroke-opacity="0.5"/>
-  <text x="68" y="322" font-family="Consolas, monospace" font-size="14" fill="#58a6ff">FastAPI</text>
-  <rect x="234" y="300" width="170" height="34" rx="18" fill="#101b3a" stroke="#2d3a61"/>
-  <text x="254" y="322" font-family="Consolas, monospace" font-size="14" fill="#c9d1d9">Django</text>
-  <rect x="420" y="300" width="170" height="34" rx="18" fill="#101b3a" stroke="#2d3a61"/>
-  <text x="440" y="322" font-family="Consolas, monospace" font-size="14" fill="#c9d1d9">React</text>
-  <rect x="606" y="300" width="170" height="34" rx="18" fill="#101b3a" stroke="#2d3a61"/>
-  <text x="626" y="322" font-family="Consolas, monospace" font-size="14" fill="#c9d1d9">PostgreSQL</text>
-
-  <rect x="48" y="346" width="170" height="34" rx="18" fill="#101b3a" stroke="#2d3a61"/>
-  <text x="68" y="368" font-family="Consolas, monospace" font-size="14" fill="#c9d1d9">Redis</text>
-  <rect x="234" y="346" width="170" height="34" rx="18" fill="#101b3a" stroke="#2d3a61"/>
-  <text x="254" y="368" font-family="Consolas, monospace" font-size="14" fill="#c9d1d9">Docker</text>
-  <rect x="420" y="346" width="170" height="34" rx="18" fill="#101b3a" stroke="#8b5cf6" stroke-opacity="0.6"/>
-  <text x="440" y="368" font-family="Consolas, monospace" font-size="14" fill="#a78bfa">RAG</text>
-  <rect x="606" y="346" width="170" height="34" rx="18" fill="#101b3a" stroke="#8b5cf6" stroke-opacity="0.6"/>
-  <text x="626" y="368" font-family="Consolas, monospace" font-size="14" fill="#a78bfa">LLMs</text>
+  <!-- small exploded-view diagram illustrating the thesis -->
+  <g>
+    <rect x="46" y="196" width="330" height="52" rx="4" fill="none" stroke="#5f83a6" stroke-width="1" stroke-dasharray="5 4"/>
+    <text x="58" y="216" font-family="Consolas, monospace" font-size="10.5" fill="#7f9db8">auth · sessions · queue · retries · migrations</text>
+    <rect x="252" y="224" width="46" height="18" rx="2" fill="#f5a524"/>
+    <text x="275" y="237" text-anchor="middle" font-family="Consolas, monospace" font-size="10" fill="#0a2036" font-weight="700">LLM</text>
+    <line x1="275" y1="224" x2="275" y2="216" stroke="#f5a524" stroke-width="1"/>
+    <text x="392" y="215" font-family="Consolas, monospace" font-size="11" fill="#f5a524">1 box out of 9</text>
+    <text x="392" y="232" font-family="Consolas, monospace" font-size="11" fill="#7f9db8">— the rest is on the next sheet</text>
+  </g>
 </svg>
