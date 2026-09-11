@@ -4,6 +4,10 @@
 
 I build the machine around the AI, not the API call. Retrieval and generation are one stage in a request's life — the rest is authentication, sessions that degrade instead of dying, jobs that retry, migrations that don't break production, and tests that run before anything ships. Below is what that actually looks like, not a stack of badges.
 
+## Parts catalog
+
+<img width="100%" height="auto" src="https://raw.githubusercontent.com/MuhammadUmarAbbas2011/MuhammadUmarAbbas2011/main/assets/skills.svg" alt="Skills grouped by layer: AI/retrieval, backend, data, async, automation, frontend, infrastructure" />
+
 ## How a request actually moves through the system
 
 <img width="100%" height="auto" src="https://raw.githubusercontent.com/MuhammadUmarAbbas2011/MuhammadUmarAbbas2011/main/assets/system-diagram.svg" alt="Exploded diagram of the request lifecycle, with the LLM drawn as the smallest component" />
@@ -55,16 +59,6 @@ Django application that collects listings, parses the user's resume, and ranks m
 | [scjobs](https://github.com/MuhammadUmarAbbas2011/scjobs) | Glassdoor job scraper | Playwright (TypeScript) |
 | [PrivHarbor](https://github.com/MuhammadUmarAbbas2011/PrivHarbor) + [frontend](https://github.com/MuhammadUmarAbbas2011/Priv-Harbor-frontend) | Phishing URL detection with malware scanning | Python, VirusTotal API, heuristics |
 | [Ayat-According-To-Feeling](https://github.com/MuhammadUmarAbbas2011/Ayat-According-To-Feeling) | Quranic verses suggested by emotional state | Django, Google Gemini (gemini-2.0-flash) |
-
-## Toolkit, by layer
-
-**AI / retrieval** — Qdrant, FastEmbed, Groq LLMs, Gemini embeddings
-**Backend** — FastAPI, Django, DRF, Python, pytest, Alembic
-**Data** — PostgreSQL, Redis, SQLAlchemy, migrations
-**Async / real-time** — Celery, Celery Beat, Redis broker, Django Channels, WebSockets
-**Automation** — Playwright, undetected-chromedriver, BeautifulSoup
-**Frontend** — React, Vite, Tailwind, TypeScript
-**Infrastructure** — Docker, Compose, GitHub Actions
 
 Exploring next: Go, Rust, Elasticsearch, distributed systems.
 
