@@ -1,95 +1,83 @@
 <div align="center">
-  <img width="100%" height="auto" src="https://raw.githubusercontent.com/MuhammadUmarAbbas2011/MuhammadUmarAbbas2011/main/assets/hero.svg" alt="Muhammad Umar Abbas — Full Stack AI Architect" />
+  <img width="100%" height="auto" src="https://raw.githubusercontent.com/MuhammadUmarAbbas2011/MuhammadUmarAbbas2011/main/assets/hero.svg" alt="Muhammad Umar Abbas — Full-stack AI Architect" />
 </div>
 
----
+I build the machine around the AI, not the API call. Retrieval and generation are one stage in a request's life — the rest is authentication, sessions that degrade instead of dying, jobs that retry, migrations that don't break production, and tests that run before anything ships. Below is what that actually looks like, not a stack of badges.
 
-### `// 01` philosophy
+## How a request actually moves through the system
 
-> I build the machine around the AI — not the API call.
+<img width="100%" height="auto" src="https://raw.githubusercontent.com/MuhammadUmarAbbas2011/MuhammadUmarAbbas2011/main/assets/system-diagram.svg" alt="Exploded diagram of the request lifecycle, with the LLM drawn as the smallest component" />
 
-RAG is only impressive when the system around it survives real use: authentication, sessions that degrade gracefully, background jobs that retry, migrations that don't break, and tests that run before anything ships. I treat every project as a full system, so the AI layer, the queue layer, and the deploy layer are equally important.
+JobHuntly follows the same shape with different labels: auth and sessions are identical, retrieval becomes Playwright scraping, and generation becomes TF-IDF + cosine similarity scoring against a parsed resume.
 
-### `// 02` the system
+## What breaks, and what happens next
 
-<img width="100%" height="auto" src="https://raw.githubusercontent.com/MuhammadUmarAbbas2011/MuhammadUmarAbbas2011/main/assets/pipeline.svg" alt="Full-stack AI system pipeline" />
+Anyone can show a working demo. The interesting part is what the system does when something goes wrong.
 
----
+<img width="100%" height="auto" src="https://raw.githubusercontent.com/MuhammadUmarAbbas2011/MuhammadUmarAbbas2011/main/assets/failure-modes.svg" alt="Failure modes and how each one is handled" />
 
-### `// 03` toolkit
+## Nexorithm — RAG as a platform
 
-No badge walls. Here is the stack I actually use, mapped by layer.
+FastAPI backend answering competitive-programming questions over Codeforces and LeetCode problems.
 
-<img width="100%" height="auto" src="https://raw.githubusercontent.com/MuhammadUmarAbbas2011/MuhammadUmarAbbas2011/main/assets/stack.svg" alt="Technology stack by layer" />
+- Retrieval: source parsing → normalization → FastEmbed vectors → Qdrant index → semantic search → grounded generation via Groq
+- Auth: JWT access + OTP email verification
+- Sessions: Redis first, PostgreSQL fallback when Redis is unavailable
+- Async: Celery for email and background tasks
+- Sandboxed executor for user-submitted solutions
+- Data: PostgreSQL + SQLAlchemy + Alembic migrations, gated by a pytest suite
+- Bootstrapped with Docker Compose
 
----
+**Frontend:** [Nexorithm-Frontend](https://github.com/MuhammadUmarAbbas2011/Nexorithm-Frontend) — React + Vite + TypeScript
 
-### `// 04` Nexorithm — RAG as a platform
+**Repo:** [Nexorithm](https://github.com/MuhammadUmarAbbas2011/Nexorithm)
 
-A FastAPI backend that answers competitive-programming questions using retrieval-augmented generation over Codeforces and LeetCode problems. Retrieval is one stage — the rest is a real platform.
+## JobHuntly — orchestration around scraping
 
-<img width="100%" height="auto" src="https://raw.githubusercontent.com/MuhammadUmarAbbas2011/MuhammadUmarAbbas2011/main/assets/nexorithm-arch.svg" alt="Nexorithm architecture" />
+Django application that collects listings, parses the user's resume, and ranks matches — then keeps the user informed while it works.
 
-<details>
-  <summary><b>Inside the platform</b></summary>
+- Scraping: Playwright + undetected-chromedriver + BeautifulSoup
+- Resume parsing: PyMuPDF text extraction
+- Matching: TF-IDF vectorization + cosine similarity
+- Async: Celery with retries; Celery Beat schedules scraping runs
+- Real-time: Django Channels WebSockets for live progress
+- Auth: JWT + OTP email verification
+- Deployment: Docker Compose with a Redis broker
 
-- RAG pipeline: source parsing → normalization → `FastEmbed` vectors → `Qdrant` index → semantic retrieval → grounded generation via Groq LLM
-- Authentication: `JWT` access + OTP email verification
-- Sessions: `Redis` first, PostgreSQL fallback when Redis is unavailable
-- Async: `Celery` for email and background tasks
-- Code execution: sandboxed executor for user-submitted solutions
-- Data layer: `PostgreSQL` + `SQLAlchemy` + `Alembic` migrations
-- Quality: `pytest` suite; service bootstrapped with `Docker Compose`
+**Frontend:** [JobHuntly-Frontend](https://github.com/MuhammadUmarAbbas2011/JobHuntly-Frontend) — React + Tailwind
 
-**Frontend**: [Nexorithm-Frontend](https://github.com/MuhammadUmarAbbas2011/Nexorithm-Frontend) — React + Vite + TypeScript client.
-</details>
+**Repo:** [JobHuntly](https://github.com/MuhammadUmarAbbas2011/JobHuntly)
 
-➜ [Nexorithm](https://github.com/MuhammadUmarAbbas2011/Nexorithm)
-
-### `// 05` JobHuntly — orchestration around scraping
-
-A Django application that collects job listings, extracts the user's resume, and ranks matches using `TF-IDF` + cosine similarity — then keeps the user informed in real time.
-
-<img width="100%" height="auto" src="https://raw.githubusercontent.com/MuhammadUmarAbbas2011/MuhammadUmarAbbas2011/main/assets/jobhuntly-pipeline.svg" alt="JobHuntly pipeline" />
-
-<details>
-  <summary><b>Inside the platform</b></summary>
-
-- Scraping: `Playwright` and `undetected-chromedriver` + `BeautifulSoup`
-- Resume parsing: `PyMuPDF` text extraction
-- Matching: `TF-IDF` vectorization + `cosine similarity` scoring
-- Async: `Celery` with retries; `Celery Beat` schedules scraping runs
-- Real-time: `Django Channels` WebSockets for live progress
-- Auth: `JWT` + OTP email verification
-- Deployment: `Docker Compose` with Redis broker
-
-**Frontend**: [JobHuntly-Frontend](https://github.com/MuhammadUmarAbbas2011/JobHuntly-Frontend) — React + Tailwind client.
-</details>
-
-➜ [JobHuntly](https://github.com/MuhammadUmarAbbas2011/JobHuntly)
-
----
-
-### `// 06` more builds
+## More builds
 
 | Project | What it is | Core stack |
 | --- | --- | --- |
 | [scjobs](https://github.com/MuhammadUmarAbbas2011/scjobs) | Glassdoor job scraper | Playwright (TypeScript) |
 | [PrivHarbor](https://github.com/MuhammadUmarAbbas2011/PrivHarbor) + [frontend](https://github.com/MuhammadUmarAbbas2011/Priv-Harbor-frontend) | Phishing URL detection with malware scanning | Python, VirusTotal API, heuristics |
-| [Ayat-According-To-Feeling](https://github.com/MuhammadUmarAbbas2011/Ayat-According-To-Feeling) | Quranic verses suggested by emotional state | Django, Google Gemini (`gemini-2.0-flash`) |
+| [Ayat-According-To-Feeling](https://github.com/MuhammadUmarAbbas2011/Ayat-According-To-Feeling) | Quranic verses suggested by emotional state | Django, Google Gemini (gemini-2.0-flash) |
 
-### `// 07` engineering philosophy
+## Toolkit, by layer
 
-<img width="100%" height="auto" src="https://raw.githubusercontent.com/MuhammadUmarAbbas2011/MuhammadUmarAbbas2011/main/assets/philosophy.svg" alt="Learn — Build — Break — Debug — Improve — Ship" />
+**AI / retrieval** — Qdrant, FastEmbed, Groq LLMs, Gemini embeddings
+**Backend** — FastAPI, Django, DRF, Python, pytest, Alembic
+**Data** — PostgreSQL, Redis, SQLAlchemy, migrations
+**Async / real-time** — Celery, Celery Beat, Redis broker, Django Channels, WebSockets
+**Automation** — Playwright, undetected-chromedriver, BeautifulSoup
+**Frontend** — React, Vite, Tailwind, TypeScript
+**Infrastructure** — Docker, Compose, GitHub Actions
+
+Exploring next: Go, Rust, Elasticsearch, distributed systems.
+
+## How I work
+
+Learn a new piece of the stack → build something small with it → break it on purpose → find the actual root cause → measure the fix → ship it, then repeat. Every project is practice for the next one.
 
 ---
 
 <div align="center">
-  <img height="190" src="https://github-readme-stats.vercel.app/api?username=MuhammadUmarAbbas2011&show_icons=true&bg_color=0d1117&title_color=58a6ff&icon_color=8b5cf6&text_color=c9d1d9&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img height="190" src="https://streak-stats.demolab.com/?user=MuhammadUmarAbbas2011&background=0d1117&border=30363d&stroke=21262d&ring=58a6ff&fire=8b5cf6&currStreakNum=c9d1d9&sideNums=8b949e&currStreakLabel=c9d1d9&sideLabels=8b949e&dates=8b949e" alt="GitHub streak" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=MuhammadUmarAbbas2011&show_icons=true&bg_color=0d2843&title_color=eaf2fa&icon_color=f5a524&text_color=7f9db8&hide_border=true&count_private=true" alt="GitHub stats" />
+  <img height="180" src="https://streak-stats.demolab.com/?user=MuhammadUmarAbbas2011&background=0d2843&border=5f83a6&stroke=5f83a6&ring=f5a524&fire=f5a524&currStreakNum=eaf2fa&sideNums=7f9db8&currStreakLabel=eaf2fa&sideLabels=7f9db8&dates=7f9db8" alt="GitHub streak" />
 </div>
-
----
 
 <div align="center">
   <a href="https://github.com/MuhammadUmarAbbas2011">github</a> ·
