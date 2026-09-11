@@ -1,0 +1,102 @@
+<svg width="1000" height="400" viewBox="0 0 1000 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1000" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a1024"/>
+      <stop offset="0.5" stop-color="#0d1526"/>
+      <stop offset="1" stop-color="#0a1024"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.45" stop-color="#58a6ff"/>
+      <stop offset="0.75" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="subGrad" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8b949e"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1c2742" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="400" fill="url(#bgGrad)"/>
+  <rect width="1000" height="400" fill="url(#grid)" opacity="0.5"/>
+
+  <ellipse cx="820" cy="80" rx="260" ry="200" fill="url(#glowBlue)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="140" cy="360" rx="240" ry="180" fill="url(#glowViolet)">
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="520" cy="60" rx="200" ry="140" fill="url(#glowCyan)">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <text x="48" y="122" font-family="Consolas, monospace" font-size="15" fill="#22d3ee">~/profile</text>
+  <text x="48" y="146" font-family="Consolas, monospace" font-size="13" fill="#3fb950">$ whoami</text>
+
+  <text x="48" y="222" font-family="'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="800" fill="url(#titleGrad)" letter-spacing="-1">Muhammad Umar Abbas</text>
+  <text x="48" y="262" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="500" fill="url(#subGrad)" letter-spacing="2">FULL STACK AI ARCHITECT</text>
+
+  <text x="790" y="122" font-family="Consolas, monospace" font-size="14" fill="#8b949e">build:</text>
+  <rect x="790" y="140" width="170" height="52" rx="8" fill="#0d1526" stroke="#1f6feb" stroke-opacity="0.6"/>
+  <text x="802" y="160" font-family="Consolas, monospace" font-size="14" fill="#22d3ee">$</text>
+  <g font-family="Consolas, monospace" font-size="14" fill="#e6edf3">
+    <text x="826" y="160" opacity="0">
+      nexorithm
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.82;0.94" dur="18s" repeatCount="indefinite"/>
+    </text>
+    <text x="826" y="160" opacity="0">
+      jobhuntly
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0.02;0.18;0.92;1" dur="18s" repeatCount="indefinite"/>
+    </text>
+    <text x="826" y="160" opacity="0">
+      privharbor
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0.14;0.22;0.98;1" dur="18s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <text x="802" y="180" font-family="Consolas, monospace" font-size="13" fill="#8b949e">
+    <tspan fill="#3fb950">●</tspan> running
+  </text>
+
+  <text x="790" y="252" font-family="Consolas, monospace" font-size="14" fill="#8b949e">status:</text>
+  <rect x="790" y="270" width="170" height="52" rx="8" fill="#0d1526" stroke="#30363d"/>
+  <text x="802" y="292" font-family="Consolas, monospace" font-size="13" fill="#8b949e">
+    <tspan fill="#58a6ff">▸</tspan> full-stack AI pipelines
+  </text>
+  <text x="802" y="310" font-family="Consolas, monospace" font-size="13" fill="#8b949e">
+    <animate attributeName="opacity" values="1;0.15;1" dur="1.6s" repeatCount="indefinite"/>
+    █
+  </text>
+
+  <rect x="48" y="300" width="170" height="34" rx="18" fill="#101b3a" stroke="#1f6feb" stroke-opacity="0.5"/>
+  <text x="68" y="322" font-family="Consolas, monospace" font-size="14" fill="#58a6ff">FastAPI</text>
+  <rect x="234" y="300" width="170" height="34" rx="18" fill="#101b3a" stroke="#2d3a61"/>
+  <text x="254" y="322" font-family="Consolas, monospace" font-size="14" fill="#c9d1d9">Django</text>
+  <rect x="420" y="300" width="170" height="34" rx="18" fill="#101b3a" stroke="#2d3a61"/>
+  <text x="440" y="322" font-family="Consolas, monospace" font-size="14" fill="#c9d1d9">React</text>
+  <rect x="606" y="300" width="170" height="34" rx="18" fill="#101b3a" stroke="#2d3a61"/>
+  <text x="626" y="322" font-family="Consolas, monospace" font-size="14" fill="#c9d1d9">PostgreSQL</text>
+
+  <rect x="48" y="346" width="170" height="34" rx="18" fill="#101b3a" stroke="#2d3a61"/>
+  <text x="68" y="368" font-family="Consolas, monospace" font-size="14" fill="#c9d1d9">Redis</text>
+  <rect x="234" y="346" width="170" height="34" rx="18" fill="#101b3a" stroke="#2d3a61"/>
+  <text x="254" y="368" font-family="Consolas, monospace" font-size="14" fill="#c9d1d9">Docker</text>
+  <rect x="420" y="346" width="170" height="34" rx="18" fill="#101b3a" stroke="#8b5cf6" stroke-opacity="0.6"/>
+  <text x="440" y="368" font-family="Consolas, monospace" font-size="14" fill="#a78bfa">RAG</text>
+  <rect x="606" y="346" width="170" height="34" rx="18" fill="#101b3a" stroke="#8b5cf6" stroke-opacity="0.6"/>
+  <text x="626" y="368" font-family="Consolas, monospace" font-size="14" fill="#a78bfa">LLMs</text>
+</svg>
